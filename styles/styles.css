@@ -292,6 +292,8 @@ aside table{
     border-radius: 5px;
     background-color:#cceaf4;
     box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.18);
+    align-items: center;
+    justify-content: center;
 }
 
 .cards a{
@@ -299,10 +301,24 @@ aside table{
 }
 
 .cards img{
-    padding: 10px;
+   width: 20em;
+   min-width: 240px;
+   margin-left: 10px;
+   padding: 5px;
+   padding-right: auto;
+   margin-right: auto;
+   height: auto;
+}
+
+.cards-body{
+    margin-right: auto;
+    padding-right:auto;
+    font-size: 2vh;
+}
+
+.btn btn-primary{
     margin: auto;
-    height: 90%;
-    width: 40%;
+    padding: auto;
 }
 
 /*Seccion Fixture*/
@@ -678,6 +694,52 @@ iframe{
 .noticia-completa article p{
     padding: 1%;
     font-size: 1vw;
+}
+
+/*Pagina de contacto*/
+
+.formulario-container{
+    margin: 5% auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-container form{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    border: #232323 solid 2px;
+    border-radius: 5%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18);
+}
+
+.formulario-campo label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-campo input, .formulario-campo textarea{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #232323;
+    border-radius: 2%;
+}
+
+.formulario-campo textarea{
+    resize: vertical;
+}
+
+.formulario-campo button{
+    background-color: #0c43f7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 2%;
+    opacity: 0.8;
 }
 
 /*Pie de pagina*/
